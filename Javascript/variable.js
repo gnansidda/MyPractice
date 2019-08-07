@@ -23,3 +23,4 @@ console.log("obj value="+JSON.stringify(obj));
 console.log("type of obj="+typeof(obj));
 console.log("id value:"+obj.id);
 console.log("name value:"+obj.name);
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subtraction</title>
+    <script>
+           function subtractBy() {
+    var a,b;
+        a = document.getElementById("firstNumber").value;
+        b = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = a - b;
+}
+
+    
+</script>
+</head>
+<body>
+        <form>
+                1st Number : <input type="text" id="firstNumber" /><br>
+                2nd Number: <input type="text" id="secondNumber" /><br>
+                <input type="button" onClick="subtractBy()" Value="Subtraction" />
+                
+                </form>    
+    <p>The Result is : <br>
+            <span id = "result"></span>
+            </p>
+</body>
+</html>
